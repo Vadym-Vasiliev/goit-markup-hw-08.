@@ -946,6 +946,8 @@ body.modal-open, body.menu-open {
 @media screen and (max-width: 1199px) {
   .team__title {
     margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.17;
   }
 }
 
@@ -1055,6 +1057,8 @@ body.modal-open, body.menu-open {
 @media screen and (max-width: 1199px) {
   .clients__title {
     margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 1.17;
   }
 }
 
