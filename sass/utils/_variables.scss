@@ -1,0 +1,62 @@
+/* основной фон #ffffff */
+/* фон героя и футера #2F303A */
+/* фон команды #F5F4FA */
+/* фон карточек команды #ffffff */
+/* фон кнопок портфолио #F5F4FA */
+/* фон карточек портфолио #eeeeee */
+/* фон иконок особенности #F5F4FA */
+/* фон иконок футера  rgba(255, 255, 255, 0.1) */
+/* фон хайдена в интересах rgba(47, 48, 58, 0.8) */
+/* фон карточки хайден rgba(33, 150, 243, 0.9) */
+
+/* основной цвет текста #757575 */
+/* вторичный цвет текста #212121 */
+/* лого шапка цвет текста #000000 */
+/* лого футер цвет #FFFFFF */
+/* герой цвет текста #FFFFFF */
+/* кнопка цвет текста #FFFFFF */
+/* футер цвет текста #FFFFFF */
+/* футер цвет ссылок rgba(255, 255, 255, 0.6) */
+/* тень кнопки героя rgba(0, 0, 0, 0.15) */
+/* цвет иконок команды та клиентов #AFB1B8 */
+/* ховер иконок команды #ffffff */
+/* текст хайден интересов #ffffff */
+/* текст хайден карточки #ffffff */
+/* кнопка close #000000 */
+/* бордер форми  border: rgba(33, 33, 33, 0.2) */
+
+/* цвет акцента #2196F3 */
+/* бордер шапки #ECECEC */
+/* кубик cubic-bezier(0.4, 0, 0.2, 1) */
+
+
+$bgc-main: #ffffff;
+$bgc-hero-footer: #2f303a;
+$bgc-team: #f5f4fa;
+$bgc-team-portret: #ffffff;
+$bgc-btn-portfolio: #f5f4fa;
+$bgc-card-portfolio: #eeeeee;
+$bgc-icon-specifics: #f5f4fa;
+$bgc-icon-footer: rgba(255, 255, 255, 0.1);
+$bgc-hidden-interests: rgba(47, 48, 58, 0.8);
+$bgc-hidden-cards: rgba(33, 150, 243, 0.9);
+
+$text-main: #757575;
+$text-second: #212121;
+$text-logo-head: #000000;
+$text-logo-footer: #ffffff;
+$text-hero: #ffffff;
+$text-btn: #ffffff;
+$text-footer: #ffffff;
+$link-footer: rgba(255, 255, 255, 0.6);
+$shadow-btn-hero: rgba(0, 0, 0, 0.15);
+$icon-color-team-clients: #afb1b8;
+$hover-icon-team: #ffffff;
+$hidden-text-interests: #ffffff;
+$hidden-text-cards: #ffffff;
+$btn-close: #000000;
+$border-form: rgba(33, 33, 33, 0.2);
+
+$accent: #2196f3;
+$border-header: #ececec;
+$cubic: cubic-bezier(0.4, 0, 0.2, 1);

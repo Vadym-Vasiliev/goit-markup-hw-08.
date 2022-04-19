@@ -1,0 +1,66 @@
+@mixin mobile {
+  width: 480px;
+}
+
+@mixin table {
+  width: 768px;
+}
+
+@mixin desKtop {
+  width: 1200px;
+}
+
+@mixin header-link {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  transition: color 250ms $cubic;
+
+  color: $text-second;
+}
+
+@mixin footer-text {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+
+  color: $text-footer;
+}
+
+@mixin team-content {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+
+  color: $text-second;
+}
+
+@mixin same-title {
+  margin-bottom: 50px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+
+  color: $text-second;
+}
+
+@mixin field-form {
+  outline: none;
+  height: 40px;
+  border: 1px solid $border-form;
+  border-radius: 4px;
+
+  transition: border-color 250ms $cubic;
+}
+
+@mixin field-text {
+  font-size: 12px;
+  line-height: 1.16;
+  letter-spacing: 0.01em;
+}

@@ -1,0 +1,124 @@
+.clients {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  &__title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+
+    color: $text-second;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+
+    @media screen and (max-width: 479px) {
+      justify-content: center;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__item {
+    margin: 15px;
+
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 60px - 30px) / 3);
+    }
+  }
+
+  &__link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    border: 1px solid $icon-color-team-clients;
+    border-radius: 4px;
+    width: 210px;
+    height: 92px;
+
+    transition: color 250ms $cubic, background-color 250ms $cubic;
+
+    color: $icon-color-team-clients;
+
+    &:hover,
+    &:focus {
+      color: $accent;
+      border-color: $accent;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: 226px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: 170px;
+    }
+  }
+
+  &__svg {
+    fill: currentColor;
+  }
+}
+
+// .clients {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+
+//   &__title {
+//     margin-bottom: 50px;
+//     font-weight: 700;
+//     font-size: 36px;
+//     line-height: 1.16;
+//     text-align: center;
+
+//     color: $text-second;
+//   }
+
+//   &__list {
+//     display: flex;
+//     justify-content: center;
+//   }
+
+//   &__item:not(:last-child) {
+//     margin-right: 30px;
+//   }
+
+//   &__link {
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+//     height: 100%;
+//     border: 1px solid $icon-color-team-clients;
+//     border-radius: 4px;
+//     width: 170px;
+//     height: 92px;
+
+//     transition: color 250ms $cubic,
+//       background-color 250ms $cubic;
+
+//     color: $icon-color-team-clients;
+
+//     &:hover,
+//     &:focus {
+//       color: $accent;
+//       border-color: $accent;
+//     }
+//   }
+
+//     &__svg {
+//       fill: currentColor;
+//     }
+//   }

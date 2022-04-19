@@ -1,0 +1,116 @@
+.specifics {
+  padding-top: 60px;
+  padding-bottom: 60px;
+
+  @media screen and (min-width: 1200px) {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+
+  &__list {
+    margin: -15px;
+
+    @media screen and (min-width: 768px) {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    @media screen and (min-width: 1200px) {
+      flex-wrap: nowrap;
+    }
+  }
+
+  &__item {
+    margin: 15px;
+
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+
+    @media screen and (min-width: 768px) {
+      width: calc((100% - 30px - 30px) / 2);
+    }
+
+    @media screen and (min-width: 1200px) {
+      width: calc(100% - 30px - 30px - 30px - 30px / 4);
+    }
+  }
+
+  &__title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    text-align: center;
+
+    color: $text-second;
+
+    @media screen and (min-width: 768px) {
+      text-align: left;
+    }
+  }
+
+  &__text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+  }
+
+  &__svg {
+    display: block;
+    height: 120px;
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: $bgc-icon-specifics;
+  }
+}
+
+// .specifics {
+//   padding-top: 94px;
+//   padding-bottom: 94px;
+
+//   &__list {
+//     display: flex;
+//   }
+
+//   &__item {
+//     width: 270px;
+
+//     &:not(:last-child) {
+//       margin-right: 30px;
+//     }
+//   }
+
+//   &__title {
+//   margin-bottom: 10px;
+//   font-weight: 700;
+//   font-size: 14px;
+//   line-height: 1.14;
+//   text-transform: uppercase;
+
+//   color: $text-second;
+//   }
+
+//   &__text {
+//     font-weight: 400;
+//     font-size: 14px;
+//     line-height: 1.71;
+//   }
+
+//   &__svg {
+//     display: block;
+//     height: 120px;
+//     border-radius: 4px;
+//     margin-bottom: 30px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+//     background-color: $bgc-icon-specifics;
+//   }
+// }

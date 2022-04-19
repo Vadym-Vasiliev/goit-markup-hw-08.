@@ -1,0 +1,21 @@
+@import './utils/_variables.scss';
+@import './base/_normalize.scss';
+@import './utils/mixins';
+@import './utils/_reset.scss';
+@import './components/general';
+
+@import './components/header';
+@import './components/hero';
+@import './components/specifics';
+@import './components/interests';
+@import './components/team';
+@import './components/clients';
+@import './components/footer';
+@import './components/footer-soclist';
+@import './components/footer-subscribe';
+
+@import './components/portfolio/filters';
+@import './components/portfolio/projects';
+
+@import './components/backdrop-modal/modal-backdrop';
+@import './components/backdrop-modal/modal-form';
