@@ -15,6 +15,9 @@
     text-align: center;
 
     color: $text-second;
+    @media screen and (max-width: 1199px) {
+      margin-bottom: 30px;
+    }
   }
 
   &__list {

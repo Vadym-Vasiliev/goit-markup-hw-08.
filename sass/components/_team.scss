@@ -11,6 +11,9 @@
 
   &__title {
     @include same-title;
+    @media screen and (max-width: 1199px) {
+      margin-bottom: 30px;
+    }
   }
 
   &__list {

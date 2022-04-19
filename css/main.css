@@ -311,10 +311,10 @@ img {
 }
 
 body {
-  font-family: 'Raleway', sans-serif;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
-  padding-top: 77px;
+  padding-top: 60px;
   background-color: #ffffff;
   color: #757575;
 }
@@ -367,7 +367,7 @@ body.modal-open, body.menu-open {
 }
 
 .logo {
-  font-family: 'Raleway';
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -393,27 +393,21 @@ body.modal-open, body.menu-open {
 
 @media screen and (max-width: 767px) {
   .header__container {
-    padding-top: 16px;
-    padding-bottom: 16px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header__container {
-    padding-top: 26px;
-    padding-bottom: 26px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .header__container {
-    padding-top: 24px;
-    padding-bottom: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
   }
 }
 
 .header__logo--accent {
   color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    font-size: 24px;
+    line-height: 1.16;
+    letter-spacing: 0.03em;
+  }
 }
 
 .menu-btn {
@@ -563,7 +557,7 @@ body.modal-open, body.menu-open {
 @media screen and (min-width: 768px) {
   .site-nav__link--current::after {
     position: absolute;
-    content: '';
+    content: "";
     bottom: 0;
     left: 0;
     width: 100%;
@@ -709,12 +703,12 @@ body.modal-open, body.menu-open {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/adaptive/mob-hero-1x-min.jpg);
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/adaptive/mob-hero-1x-min.jpg);
 }
 
 @media screen and (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/adaptive/mob-hero-2x-min.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/adaptive/mob-hero-2x-min.jpg);
   }
 }
 
@@ -727,13 +721,13 @@ body.modal-open, body.menu-open {
 @media screen and (min-width: 768px) {
   .hero {
     max-width: 768px;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/adaptive/tab-hero-1x-min.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/adaptive/tab-hero-1x-min.jpg);
   }
 }
 
 @media screen and (min-width: 768px) and (min-device-pixel-ratio: 2), screen and (min-width: 768px) and (min-resolution: 192dpi), screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/adaptive/tab-hero-2x-min.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/adaptive/tab-hero-2x-min.jpg);
   }
 }
 
@@ -745,13 +739,13 @@ body.modal-open, body.menu-open {
     padding-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/adaptive/desk-hero-1x-min.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/adaptive/desk-hero-1x-min.jpg);
   }
 }
 
 @media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2), screen and (min-width: 1200px) and (min-resolution: 192dpi), screen and (min-width: 1200px) and (min-resolution: 2dppx) {
   .hero {
-    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../img/adaptive/desk-hero-2x-min.jpg);
+    background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../img/adaptive/desk-hero-2x-min.jpg);
   }
 }
 
@@ -949,6 +943,12 @@ body.modal-open, body.menu-open {
   color: #212121;
 }
 
+@media screen and (max-width: 1199px) {
+  .team__title {
+    margin-bottom: 30px;
+  }
+}
+
 .team__list {
   display: flex;
   flex-wrap: wrap;
@@ -1050,6 +1050,12 @@ body.modal-open, body.menu-open {
   line-height: 1.16;
   text-align: center;
   color: #212121;
+}
+
+@media screen and (max-width: 1199px) {
+  .clients__title {
+    margin-bottom: 30px;
+  }
 }
 
 .clients__list {
@@ -1176,8 +1182,10 @@ body.modal-open, body.menu-open {
   color: #2196f3;
 }
 
-.footer-soclist {
-  margin-bottom: 60px;
+@media screen and (max-width: 767px) {
+  .footer-soclist {
+    margin-bottom: 60px;
+  }
 }
 
 .footer-soclist__text {

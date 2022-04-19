@@ -16,22 +16,20 @@
     justify-content: space-between;
 
     @media screen and (max-width: 767px) {
-      padding-top: 16px;
-      padding-bottom: 16px;
-    }
-    @media screen and (max-width: 767px) {
-      padding-top: 26px;
-      padding-bottom: 26px;
-    }
-    @media screen and (max-width: 767px) {
-      padding-top: 24px;
-      padding-bottom: 25px;
+      padding-top: 8px;
+      padding-bottom: 8px;
     }
   }
 
   &__logo {
     &--accent {
       color: $text-logo-head;
+    }
+
+    @media screen and (max-width: 767px) {
+      font-size: 24px;
+      line-height: 1.16;
+      letter-spacing: 0.03em;
     }
   }
 }
@@ -167,7 +165,7 @@
     &--current::after {
       @media screen and (min-width: 768px) {
         position: absolute;
-        content: '';
+        content: "";
         bottom: 0;
         left: 0;
         width: 100%;
