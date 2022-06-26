@@ -107,8 +107,16 @@
     min-width: 200px;
     cursor: pointer;
 
+    transform: scale(1);
+    transition: transform 250ms $cubic;
+
     color: $text-btn;
     background-color: $accent;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+    }
   }
 }
 

@@ -65,8 +65,16 @@
     margin-left: auto;
     margin-right: auto;
 
+    transform: scale(1);
+    transition: transform 250ms $cubic;
+
     color: $text-btn;
     background-color: $accent;
+
+    &:hover,
+    &:focus {
+      transform: scale(1.05);
+    }
 
     @media screen and (min-width: 1200px) {
       margin: 0 0 0 12px;
