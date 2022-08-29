@@ -1150,6 +1150,9 @@ body.modal-open, body.menu-open {
   background-color: transparent;
   color: #ffffff;
 }
+.footer-subscribe__input.error {
+  border-color: red;
+}
 .footer-subscribe__input:focus {
   border-color: #2196f3;
 }
@@ -1442,6 +1445,9 @@ body.modal-open, body.menu-open {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   padding: 0 42px;
 }
+.modal-form__input.error {
+  border-color: red;
+}
 .modal-form__field:hover .modal-form__input {
   border-color: #2196f3;
 }
@@ -1503,6 +1509,9 @@ body.modal-open, body.menu-open {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.form-checkbox__input.error + .form-checkbox__label {
+  color: red;
 }
 .form-checkbox__label {
   margin-left: 8px;

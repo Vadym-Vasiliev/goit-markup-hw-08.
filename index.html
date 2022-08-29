@@ -644,6 +644,7 @@
             <p class="footer-subscribe__text">Подпишитесь на рассылку</p>
 
             <form class="footer-subscribe__form">
+              <label class="footer-subscribe__label" for="email"></label>
               <input
                 class="footer-subscribe__input"
                 type="email"
@@ -685,6 +686,7 @@
               type="text"
               name="name"
               id="name"
+              placeholder=" "
             />
             <svg class="modal-form__icon">
               <use href="./img/icon/sprite.svg#icon-name-modal"></use>
@@ -693,7 +695,13 @@
 
           <div class="modal-form__field">
             <label class="modal-form__label" for="tel">Телефон</label>
-            <input class="modal-form__input" type="text" name="name" id="tel" />
+            <input
+              class="modal-form__input modal-form__input-phone"
+              type="tel"
+              name="tel"
+              id="tel"
+              placeholder=" "
+            />
             <svg class="modal-form__icon">
               <use href="./img/icon/sprite.svg#icon-tel-modal"></use>
             </svg>
@@ -702,10 +710,11 @@
           <div class="modal-form__field">
             <label class="modal-form__label" for="mail">Почта</label>
             <input
-              class="modal-form__input"
-              type="text"
-              name="name"
+              class="modal-form__input modal-form__input-mail"
+              type="email"
+              name="mail"
               id="mail"
+              placeholder=" "
             />
             <svg class="modal-form__icon">
               <use href="./img/icon/sprite.svg#icon-mail-modal"></use>
@@ -742,7 +751,9 @@
     </div>
 
     <!-- SCRIPT -->
-    <script src="./js/modal.js"></script>
-    <script src="./js/burger-menu.js"></script>
+    <script src="./js/modal.js" type="module"></script>
+    <script src="./js/burger-menu.js" type="module"></script>
+    <script src="./js/form.js" type="module"></script>
+    <script src="./js/form-footer.js" type="module"></script>
   </body>
 </html>

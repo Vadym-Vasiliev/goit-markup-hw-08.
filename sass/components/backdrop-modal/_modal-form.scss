@@ -69,6 +69,10 @@
     @include field-form;
     padding: 0 42px;
 
+    &.error {
+      border-color: red;
+    }
+
     .modal-form__field:hover & {
       border-color: $accent;
     }
@@ -145,6 +149,10 @@
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+
+    &.error + .form-checkbox__label {
+      color: red;
+    }
   }
 
   &__label {

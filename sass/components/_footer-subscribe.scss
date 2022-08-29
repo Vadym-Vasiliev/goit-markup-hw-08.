@@ -34,6 +34,10 @@
     background-color: transparent;
     color: #ffffff;
 
+    &.error {
+      border-color: red;
+    }
+
     &:focus {
       border-color: $accent;
     }
@@ -85,57 +89,3 @@
     margin-left: 10px;
   }
 }
-
-// .footer-subscribe {
-//   margin-left: 93px;
-//   padding-top: 12px;
-
-//   &__text{
-//     @include footer-text;
-//   }
-
-//   &__input {
-//     outline: none;
-//     padding-left: 16px;
-//     height: 50px;
-//     width: 358px;
-//     border-radius: 4px;
-//     border: 1px solid rgba(255, 255, 255, 0.3);
-//     font-weight: 400;
-//     font-size: 16px;
-//     line-height: 1.25;
-//     letter-spacing: inherit;
-
-//     transition: border-color 250ms $cubic;
-
-//     background-color: transparent;
-//     color: #ffffff;
-
-//     &:focus {
-//       border-color: $accent;
-//     }
-//   }
-
-//   &__btn {
-//     margin-left: 12px;
-//     border: 1px solid transparent;
-//     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-//     border-radius: 4px;
-//     padding: 10px 29px;
-//     min-width: 200px;
-//     font-weight: 700;
-//     font-size: 16px;
-//     line-height: 1.88;
-//     letter-spacing: 0.06em;
-//     cursor: pointer;
-//     display: inline-flex;
-//     align-items: center;
-
-//     color: $text-btn;
-//     background-color: $accent;
-//   }
-
-//   &__icon {
-//     margin-left: 10px;
-//   }
-// }
